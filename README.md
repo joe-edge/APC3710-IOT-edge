@@ -41,7 +41,10 @@ Yocto
 Install Yocto Steps.
 
 Step1: connect APC3710 to Computuer via USB
+
 Step2:  input command:  imx-yocto-flash.bat for downloading Yocto under serial port with Win10 64bit
+
 Step3:  after finishing,  restart APC3710, then input the below command for installing.
+
 setenv mmccargs  'sentenv bootargs ${bootargs} root=/dev/mmcblk3p2 rootwait rw video=mxcfb0:dev=hdmi 1920*1080M@60,if=RGB24'
 
